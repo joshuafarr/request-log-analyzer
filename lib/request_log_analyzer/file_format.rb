@@ -15,6 +15,7 @@ module RequestLogAnalyzer::FileFormat
   autoload :AmazonS3,         'request_log_analyzer/file_format/amazon_s3'
   autoload :W3c,              'request_log_analyzer/file_format/w3c'
   autoload :Haproxy,          'request_log_analyzer/file_format/haproxy'
+  autoload :Haproxy2,         'request_log_analyzer/file_format/haproxy_tcp'
 
   # Loads a FileFormat::Base subclass instance.
   # You can provide:
